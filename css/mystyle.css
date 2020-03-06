@@ -1,0 +1,1083 @@
+
+* {
+    
+  
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing:border-box;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*body
+{
+    font-family: 'Lemonada', cursive ,serif;
+}*/
+body
+{
+    font-family: 'DroidArabicKufiRegular'; 
+    font-weight: normal; 
+    font-style: normal; 
+}
+ 
+
+/*starting constant*/
+
+
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.uper{
+    text-transform: uppercase;
+}
+.clear-fix{
+    clear: both;
+}
+.directoin
+{
+    direction: rtl;
+}
+/********** End constant ************/
+
+
+/***********  *************/
+/***********  *************/
+
+
+
+
+
+/***********  *************/
+/***********  *************/
+
+
+/*********** starting navbar *************/
+.navbar
+{
+    direction: rtl;
+    background-color: #31394a !important;
+}
+.navbar .container
+{
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+.navbar .logo
+{
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    font-size: 20px;
+}
+.navbar .logo:hover
+{
+    color:darkgray !important;
+}
+.navbar .nav-link
+{
+    color:darkgray !important;
+    transition: all .3s ease-in-out;  
+    border-bottom: 3px solid transparent;
+    margin-right: 2.5px;
+}
+.navbar .nav-link:hover
+{
+    border-bottom: 3px solid lightcyan;
+}
+@media (min-width: 993px) and (max-width: 1199px)
+{
+    .navbar .nav-link
+    {
+        font-size: 14.5px !important;
+        margin-right: 1.5px !important;
+    }
+}
+/***********
+@media (max-width: 576px)
+@media (min-width: 577px) and (max-width: 768px)
+@media (min-width: 789px) and (max-width: 992px)
+
+
+*************/
+/*********** End navbar *************/
+
+/***********strating carousel  *************/
+
+.carousel-indicators li 
+{
+    position: relative;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 25px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    width: 40px;
+    height: 10px;
+    border-radius: 5px;
+    /*background:  rgba(123,123,193,.6);*/
+    background-color: #00171f;   
+    left: -440px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon
+{
+    display: none;
+}
+.carousel .carousel-item 
+{
+    height: 500px;
+}
+.carousel:after
+{
+    content: " ";
+    background-color: #00171f;   
+    position: absolute;
+    width: 100%;
+    height: 12px;
+    bottom: -8px;
+}
+.carousel .carousel-inner .vocab
+{
+    position: absolute;
+    bottom: 100px;
+    text-align: right;
+    width: 450px;
+    right: 105px;
+    /*background-color: #e85a5a;*/
+    color: #fff;
+    padding: 10px;
+}
+.carousel .carousel-inner .vocab h3
+{
+    margin-bottom: 15px;
+    font-size: 28px;
+    font-weight: bold;
+}
+.carousel .carousel-inner .vocab p
+{
+    line-height: 2.5;
+    font-size: 14.5px;
+}
+@media (max-width: 576px)
+{
+    .carousel-indicators li 
+    {
+        left: 0px;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    .carousel-indicators li 
+    {
+        left: 0px;
+    }
+}
+@media (min-width: 789px) and (max-width: 992px)
+{
+    .carousel-indicators li 
+    {
+        left: 0px;
+    }
+}
+/***********
+
+
+
+@media (min-width: 993px) and (max-width: 1199px)
+
+*************/
+/*********** End carousel  *************/
+
+
+/***********  *************/
+/***********  *************/
+
+
+/*********** starting about *************/
+.about
+{
+    background-color: #f4f4f4;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.about .overlay
+{
+    width: 100%;
+    height: 100%;
+    
+}
+.about .overlay .container h2
+{
+    width: 10.4%;
+    font-weight: bold;
+    font-size: 19px;
+    text-align: right;
+    border-bottom: 4.5px solid #494974;
+    margin-left: 90%;
+    padding-bottom: 20px;
+    margin-bottom: -17px;
+}
+.about .container
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.about .slick-prev:before, .about .slick-next:before 
+{
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: #ddd;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.about .slick-prev:before
+{
+    font-size: 35px;
+    background-color: #31394a;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: -40px;
+}
+.about .slick-next:before 
+{
+    font-size: 35px;
+    background-color: #31394a;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 15px;
+}
+.about .slick-slider
+{
+    width: 91%;
+    margin: auto;
+}
+.about .container .up
+{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #fff;
+}
+
+.about .container .up a
+{
+    width: 65%;
+    margin: auto;
+    color: darkgray;
+    font-weight: normal;
+    line-height: 1.9;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+/*@media (min-width: 375px) and (max-width: 575px)
+{
+    .about .overlay .container h2
+    {
+        margin-left: 15%;
+    }
+    .slick-slider 
+    {
+        width: 28%;
+        margin: auto;
+        margin-left: 68px;
+    }
+    .about .container .up a
+    {
+        font-size: 12px;
+    }
+}*/
+@media (max-width: 576px)
+{
+    .about
+    {
+        overflow-x: hidden;
+    }
+    .about .overlay .container h2
+    {
+        margin-left: 10%;
+    }
+    .about .slick-slider 
+    {
+        width: 24%;
+        margin: auto;
+        margin-left: 33px;
+    }
+    .about .container .up a
+    {
+        font-size: 15px;
+    }
+    .about .slick-prev:before
+    {
+        margin-left: -11px;
+    }
+    .about .slick-next:before 
+    {
+        margin-left: -4px;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    .about .overlay .container h2
+    {
+        margin-left: 77%;
+        width: 23%;
+    }
+}
+@media (min-width: 789px) and (max-width: 992px)
+{
+    .about .overlay .container h2
+    {
+        margin-left: 82%;
+        width: 18%;
+    }
+}
+@media (min-width: 993px) and (max-width: 1199px)
+{
+    .about .overlay .container h2
+    {
+        margin-left: 87%;
+        width: 13%;
+    }
+}
+/***********
+
+
+
+
+*************/
+/*********** End about *************/
+
+
+/***********  *************/
+/***********  *************/
+
+
+/*********** starting  projects *************/
+.projects
+{
+    /*background-color: #c9e3ef;*/
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.projects .container
+{
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+.projects .group
+{
+    overflow: hidden;
+    max-width: 350px;
+    width: 350px !important;
+    margin-right: 30px;
+}
+.projects .group a
+{
+    text-decoration: none;
+    color: darkgray;
+    background-color: #31394a;
+    border: 2px solid transparent;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px 10px 5px 10px;
+    display: inline-block;
+    margin-top: 25px;
+    transition: all .5s ease-in-out;
+    border-radius: 5px;
+    margin-left: 26%;
+}
+.projects .group a:hover
+{
+    background-color: transparent;
+    border: 2px solid darkgray;
+}
+.projects .hover-box
+{
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    max-width: 350px;
+    width: 350px !important;
+}
+
+
+.projects .hover-box .out-box
+{
+    position: absolute;
+    left: 0px;
+    bottom: 50px;
+    margin: 0px;
+    /* background-color: rgba(0,0,0,.55); */
+    /*background-color: rgba(32,37,49,.77);*/
+    /*background: rgba(32,189,236,.85);  /* fallback for old browsers */
+    /*background: -webkit-linear-gradient(to right, rgba(32,189,236,.85), rgba(51,215,186,.7));  /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to right, rgba(32,189,236,.85), rgba(51,215,186,.7)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: rgba(49,57,74,.7);
+    padding: 15px;
+    font-weight: normal;
+    transform: translate(0, 465px);
+    transition: .5s;
+    font-size: 19px;
+    text-align: right;
+    width: 96%;
+    height: 249px;
+    text-align: center;
+}
+.projects .hover-box .out-box .icons
+{
+    margin-top: 20px;
+}
+.projects .hover-box .out-box .icons i
+{
+    color: #fff;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.projects .hover-box:hover .out-box
+{
+    transform: translate(0,50px);
+    
+}
+.projects .hover-box:hover img
+{
+    transform: scale(1.2,1.2);
+    
+}
+.projects .hover-box img
+{
+    width: 100%;
+    transition: .7s ;
+}
+.projects .hover-box h4
+{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+.projects .hover-box p
+{
+    font-size: 12.5px;
+    line-height: 2;
+    text-align: center;
+    margin-bottom: 10px;
+    letter-spacing: 1.05px;
+    color: #fff;
+}
+.projects .hover-box a
+{
+    text-decoration: none;
+    color: darkgray;
+    background-color: #31394a;
+    border: 2px solid transparent;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px 10px 5px 10px;
+    display: inline-block;
+    margin-top: 10px;
+    transition: all .5s ease-in-out;
+    border-radius: 5px;
+    margin-left: 0%;
+}
+.projects .hover-box a:hover
+{
+    background-color: transparent;
+    color: #fff;
+    font-weight:normal;
+    border: 2px solid #fff;
+}
+.projects .container .for-fram
+{
+    
+}
+.projects .container .for-fram iframe
+{
+    padding-top: 8px;
+}
+.projects .container .for-fram a
+{
+    text-align: center;
+    text-decoration: none;
+    color: darkgray;
+    background-color: #31394a;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px 10px 5px 10px;
+    border: 2px solid transparent;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20%;
+    transition: all .5s ease-in-out;
+    border-radius: 5px;`
+}
+.projects .container .for-fram a:hover
+{
+    background-color: transparent;
+    border: 2px solid darkgray;
+}
+@media (max-width: 576px)
+{
+    .projects .container
+    {
+        width: 450px;
+    }
+}
+@media (max-width: 576px)
+{
+    .projects
+    {
+        overflow-x: hidden;
+    }
+    .projects .container .for-fram 
+    {
+        margin-bottom: 50px;
+        margin-left: -37px;
+    }
+    .projects .group
+    {
+        overflow: hidden;
+        max-width: 350px;
+        width: 350px !important;
+        margin-left: 1%;
+        margin-bottom: 50px;
+    }
+    .projects .row
+    {
+        max-width: 450px;
+        text-align: center;
+    }
+    .projects .group a
+    {
+        margin-left: 6%;
+    }
+    .projects .container .for-fram a
+    {
+        margin-left: 6%;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    .projects .row
+    {
+        margin-left: 14%;
+    }
+    .projects .group, .projects .container .for-fram 
+    {
+        margin-bottom: 50px;
+    }
+}
+@media (min-width: 789px) and (max-width: 992px)
+{
+    .projects .container .for-fram a
+    {
+        margin-left: -2%;
+    }
+    .projects .container .for-fram
+    {
+        text-align: center;
+        margin-bottom: 50px;
+        display: -webkit-inline-box;
+    }
+    .projects .container .for-fram iframe
+    {
+        margin-left: 30%;
+    }
+    .projects .group
+    {
+        margin-right: auto;
+    }
+}
+@media (min-width: 993px) and (max-width: 1199px)
+{
+    .projects .group
+    {
+        margin-right: auto;
+    }
+    .projects .container .for-fram 
+    {
+        padding-right: 0px;
+        margin-right: -55px;
+    }
+    .projects .container .for-fram iframe
+    {
+        width: 250px; 
+    }
+    .projects .container .for-fram a
+    {
+        margin-left: 14%;
+    }
+}
+
+/***********  End last projects  *************/
+
+
+/***********  *************/
+/***********  *************/
+
+
+/***********starting advertising   *************/
+.advertising
+{
+    /*background: url('../img/secondslider.png');
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -0-background-size:cover;
+    background-size:cover;
+    overflow: hidden;*/
+}
+.advertising .overlay
+{
+    width: 100%;
+    height: 100%;
+    /*background-color: #c9e3ef;*/
+    background-color: #f8f9fa;
+    
+}
+.advertising .overlay .container h2
+{
+    width: 22%;
+    font-weight: bold;
+    font-size: 19px;
+    text-align: right;
+    border-bottom: 4.5px solid #494974;
+    margin-left: 78%;
+    padding-bottom: 20px;
+    margin-bottom: -17px;
+}
+.advertising .container
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.advertising .slick-prev:before, .advertising .slick-next:before 
+{
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: #ddd;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.advertising .slick-prev:before
+{
+    font-size: 35px;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: -40px;
+}
+.advertising .slick-next:before 
+{
+    font-size: 35px;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 15px;
+}
+.advertising .container .up
+{
+    margin-right: 5px;
+    margin-left: 5px;
+    overflow: hidden;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.advertising .container .up a
+{
+    
+}
+.advertising .container .up a img
+{
+    /*width: 300px;*/
+    width: 100%;
+    /*opacity: .3;*/
+    transition: all .5s ease-in-out;
+}
+.advertising .container .up a img:hover
+{
+    opacity: .5;
+    transform: translate(15px,15px);
+}
+@media (max-width: 576px)
+{
+    .advertising .overlay .container h2
+    {
+        width: 88%;
+        font-size: 19px;
+        margin-left: 7%;
+    }
+    .advertising
+    {
+        overflow-x: hidden;
+    }
+    .advertising .container
+    {
+        width: 308px;
+    }
+    .advertising .slick-prev:before
+    {
+        margin-left: -10px;
+    }
+    .advertising .slick-next:before 
+    {
+        margin-left: -7px;
+    }
+    
+}
+@media (min-width: 789px) and (max-width: 992px)
+{
+    .advertising .overlay .container h2
+    {
+        width: 37%;
+        margin-left: 63%;
+    }
+}
+/***********
+
+@media (min-width: 577px) and (max-width: 768px)
+
+@media (min-width: 993px) and (max-width: 1199px)
+
+*************/
+/*********** End advertising  *************/
+
+/***********  *************/
+/***********  *************/
+
+
+/*********** starting contact *************/
+.contact
+{
+    background-color: black;
+}
+.contact h2
+{
+    background-color: #42535A; 
+    padding-top: 15px;
+    /*padding-bottom: 15px;*/
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 2px;
+
+}
+.contact .container
+{
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.contact .container h3
+{
+    /*color: #6B6262;*/
+    color: #fff;
+    font-size: 18px;
+    text-align: right;
+    transition: all .3s ease-in-out;
+}
+.contact .container h3:hover
+{
+    margin-right: 15px
+}
+.contact .container hr
+{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 2px solid rgba(123,123,193,.6);
+}
+.contact .container p
+{
+    /*color: #6B6262;*/
+    color: #fff;
+    font-size: 13px;
+    text-align: right;
+}
+.contact .container a
+{
+    /*color: #6B6262;*/
+    color: #fff;
+    font-size: 12px;
+    display: block;
+    text-align: right;
+    margin-bottom: 7px;
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
+.contact .container a:hover
+{
+    margin-right: 15px;
+}
+.contact .container .icons
+{
+    text-align: right;
+}
+
+.contact .container .icons i
+{
+    color: #fff;
+    background-color: #31394a;
+    background: rgba(123,123,193,.6);
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 5px;
+    border-radius: 5px;
+    transition: all .4s ease-in-out;
+}
+.contact .container .icons i:hover
+{
+    background-color: transparent;
+}
+.contact .container .icons .down-icons i
+{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    background-color: #202531;
+    background: rgba(123,123,193,.6);
+    transition: all .5s ease-in-out;
+}
+.contact .container .icons .down-icons i:hover
+{
+    border: 2px solid #1b6290;
+    background-color: transparent;
+    /*color: #202531;*/
+}
+.contact .container .data
+{
+    text-align: right;
+}
+.contact .container .icons p
+{
+    display: inline-block;
+}
+.contact .container .links .apps
+{
+    margin-top: 47px;
+}
+@media (max-width: 576px)
+{
+    .contact .container
+    {
+        width: 360px;
+    }
+}
+@media (max-width: 576px)
+{
+    .contact 
+    {
+        overflow-x: hidden;
+    }
+    .contact .contact-row
+    {
+        width: 360px;
+    }
+    .contact .container .icons
+    {
+        margin-bottom: 70px;
+    }
+    .contact .container .links .apps
+    {
+        margin-bottom: 50px;
+        position: absolute;  
+        left: -135px;                
+    }
+    .contact .container .icons .down-icons i
+    {
+        margin-bottom: 10px;
+    }
+    .contact .container a:hover        
+    {
+        margin-right: auto;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    .contact .container .icons
+    {
+        margin-bottom: 70px;
+    }
+    .contact .container a:hover      
+    {
+        margin-right: auto;
+    }
+    .contact .container .links .apps
+    {
+        margin-bottom: 50px;
+        position: absolute;         
+        left: -275px;              
+    }
+    
+}
+@media (min-width: 789px) and (max-width: 992px)
+{
+    .contact .container .icons .down-icons i
+    {
+        margin-bottom: 10px;
+    }
+}
+/***********
+
+
+@media (min-width: 789px) and (max-width: 992px)
+{
+    
+}
+@media (min-width: 993px) and (max-width: 1199px)
+
+*************/
+/*********** End contact *************/
+
+
+/***********  *************/
+/***********  *************/
+
+
+/***********starting copyright  *************/
+.copyright
+{
+    /*background-color: #202531;*/
+    background: rgba(123,123,193,.1);
+    margin-bottom: 0px;
+    padding: 17px;
+}
+.copyright p
+{
+    color: #fff;
+    text-align: center !important;
+    margin: 0px;
+    font-size: 13px;
+}
+@media (max-width: 576px)
+{
+    .copyright
+    {
+        overflow-x: hidden;
+    }
+    .copyright p
+    {
+        width: 100%;
+    }
+}
+/***********
+
+@media (min-width: 577px) and (max-width: 768px)
+@media (min-width: 789px) and (max-width: 992px)
+@media (min-width: 993px) and (max-width: 1199px)
+
+*************/
+/*********** End copyright *************/
+
+
+/***********  *************/
+/***********  *************/
+
+/*********** starting scroll-top *************/
+#scroll-top
+{
+    background-color: #5f9ea0;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99999;
+    display: none;
+    cursor: pointer;
+    color: #31394a;
+    
+}
+#scroll-top:hover
+{
+    opacity: .85;
+}
+/*********** End scroll-top *************/
+
+
+/***********  *************/
+/***********  *************/
+/***********  *************/
+/***********  *************/
+/***********  *************/
+/***********  *************/
+/***********  *************/
+/***********  *************/
+/***********  *************/
+/***********  *************/
+/***********  *************/
+/***********  *************/
+/***********  *************/
+/***********  *************/
+/*********** 
+/***********
+@media (max-width: 576px)
+@media (min-width: 577px) and (max-width: 768px)
+@media (min-width: 789px) and (max-width: 992px)
+@media (min-width: 993px) and (max-width: 1199px)
+
+*************/
+
+
+*************/
+/***********  *************/
+/***********  *************/
+
+
+
+
+/***********media query  *************/
+@media (max-width: 576px)
+{
+    .container
+    {
+        width: auto;
+    }
+}
+@media (min-width: 576px)
+{
+    .container
+    {
+        width: 540px;
+    }
+}
+@media (min-width: 768px)
+   
+{
+    .container
+    {
+        width: 720px;
+    }
+}
+@media (min-width: 992px)
+ 
+{
+    .container
+    {
+        width: 960px;
+    }
+}
+@media (min-width: 1200px)
+{
+    .container
+    {
+        width: 1200px;
+    }
+}
+/******* End @media *********/
